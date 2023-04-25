@@ -1,0 +1,18 @@
+{
+    "name": "URL Scanner",
+    "version": "1.0",
+    "description": "Scans the current webpage for URLs, displays them in a list, and allows you to delete and export them as a CSV file.",
+    "manifest_version": 3,
+    "permissions": ["tabs", "scripting", "webNavigation", "downloads", "contextMenus"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png"
+      },
+      "default_title": "URL Scanner",
+      "default_popup": "popup.html"
+    }
+  }
+  
